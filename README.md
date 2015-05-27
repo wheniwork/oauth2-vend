@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/packagist/l/wheniwork/oauth2-vend.svg)](https://github.com/wheniwork/oauth2-vend/blob/master/LICENSE)
 [![Latest Stable Version](https://img.shields.io/packagist/v/wheniwork/oauth2-vend.svg)](https://packagist.org/packages/wheniwork/oauth2-vend)
 
-This package provides Vend OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
+This package provides [Vend OAuth 2.0](https://developers.vendhq.com/documentation/oauth.html) support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
 ## Installation
 
