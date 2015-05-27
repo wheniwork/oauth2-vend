@@ -26,9 +26,10 @@ To make requests against the Vend staging server, pass `'debug' => true` as part
 
 ```php
 $provider = new Wheniwork\OAuth2\Client\Provider\Vend([
-    'clientId'          => '{vend-client-id}',
-    'clientSecret'      => '{vend-client-secret}',
-    'redirectUri'       => 'https://example.com/callback-url'
+    'clientId'     => '{vend-client-id}',
+    'clientSecret' => '{vend-client-secret}',
+    'domainPrefix' => '{vend-domain-prefix}',
+    'redirectUri'  => 'https://example.com/callback-url'
 ]);
 
 if (!isset($_GET['code'])) {
@@ -76,9 +77,10 @@ if (!isset($_GET['code'])) {
 
 ```php
 $provider = new Wheniwork\OAuth2\Client\Provider\Vend([
-    'clientId'          => '{vend-client-id}',
-    'clientSecret'      => '{vend-client-secret}',
-    'redirectUri'       => 'https://example.com/callback-url'
+    'clientId'     => '{vend-client-id}',
+    'clientSecret' => '{vend-client-secret}',
+    'domainPrefix' => '{vend-domain-prefix}',
+    'redirectUri'  => 'https://example.com/callback-url'
 ]);
 
 $grant = new \League\OAuth2\Client\Grant\RefreshToken();
